@@ -197,7 +197,7 @@ def delete_timetable():
 
 def history_8():
     delete_timetable()
-    image = Image.open("1.jpg")
+    image = Image.open("photo/1.jpg")
     photo = ImageTk.PhotoImage(image)
     label.configure(image=photo)
     label.image = photo
@@ -205,7 +205,7 @@ def history_8():
 
 def physics_16():
     delete_timetable()
-    image = Image.open("1.jpg")
+    image = Image.open("photo/2.jpg")
     photo = ImageTk.PhotoImage(image)
     label.configure(image=photo)
     label.image = photo
@@ -213,7 +213,7 @@ def physics_16():
 
 def informatics_10():
     delete_timetable()
-    image = Image.open("1.jpg")
+    image = Image.open("photo/3.jpg")
     photo = ImageTk.PhotoImage(image)
     label.configure(image=photo)
     label.image = photo
@@ -221,7 +221,7 @@ def informatics_10():
 
 def pe_1():
     delete_timetable()
-    image = Image.open("1.jpg")
+    image = Image.open("photo/4.jpg")
     photo = ImageTk.PhotoImage(image)
     label.configure(image=photo)
     label.image = photo
