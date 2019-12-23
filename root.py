@@ -73,7 +73,7 @@ def change_bg_white():
     olympiad_4.configure(background=bg,font=font)
       
     history_8_1_hw.configure(background=bg,font=font)   
-    history_8_1_hw.configure(background=bg,font=font)   
+    history_8_2_hw.configure(background=bg,font=font)
     physics_16_hw.configure(background=bg,font=font)   
     informatics_10_1_hw.configure(background=bg,font=font)   
     informatics_10_2_hw.configure(background=bg,font=font)   
@@ -105,7 +105,7 @@ def change_bg_gray():
     olympiad_4.configure(background=bg,font=font)
       
     history_8_1_hw.configure(background=bg,font=font)   
-    history_8_1_hw.configure(background=bg,font=font)   
+    history_8_2_hw.configure(background=bg,font=font)
     physics_16_hw.configure(background=bg,font=font)   
     informatics_10_1_hw.configure(background=bg,font=font)   
     informatics_10_2_hw.configure(background=bg,font=font)   
@@ -134,7 +134,7 @@ def change_font_times():
     olympiad_4.configure(font=font)
     
     history_8_1_hw.configure(font=font)
-    history_8_1_hw.configure(font=font)
+    history_8_2_hw.configure(font=font)
     physics_16_hw.configure(font=font)
     informatics_10_1_hw.configure(font=font)
     informatics_10_2_hw.configure(font=font)
@@ -163,7 +163,7 @@ def change_font_courier():
     olympiad_4.configure(font=font)
     
     history_8_1_hw.configure(font=font)
-    history_8_1_hw.configure(font=font)
+    history_8_2_hw.configure(font=font)
     physics_16_hw.configure(font=font)
     informatics_10_1_hw.configure(font=font)
     informatics_10_2_hw.configure(font=font)
@@ -260,7 +260,7 @@ def exit():
 def show_homework():
     delete_main_menu()
     history_8_1_hw.grid(row=0, column=0, padx=5, pady=5)
-    history_8_1_hw.grid(row=1, column=0, padx=5, pady=5)
+    history_8_2_hw.grid(row=1, column=0, padx=5, pady=5)
     physics_16_hw.grid(row=2, column=0, padx=5, pady=5)
     informatics_10_1_hw.grid(row=3, column=0, padx=5, pady=5)
     informatics_10_2_hw.grid(row=4, column=0, padx=5, pady=5)
